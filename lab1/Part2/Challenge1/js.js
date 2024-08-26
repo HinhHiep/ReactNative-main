@@ -19,8 +19,7 @@ var avgKoalas2 = calcAverage(koalas2);
 console.log(avgDolphins2);
 console.log(avgKoalas2);
 
-console.log(checkWinner(avgDolphins1, avgKoalas1));
-console.log(checkWinner(avgDolphins2, avgKoalas2));
+
 
 // create a function to check the winner
 function checkWinner(avgDolphins, avgKoalas) {
@@ -32,3 +31,5 @@ function checkWinner(avgDolphins, avgKoalas) {
         return `No winner`;
     }
 }
+console.log(checkWinner(avgDolphins1, avgKoalas1));
+console.log(checkWinner(avgDolphins2, avgKoalas2));
